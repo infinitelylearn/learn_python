@@ -1,0 +1,103 @@
+# Financial Analysis Topics
+topics:
+  - id: "finance-1"
+    name: "Financial Analysis: Market Data Processing"
+    status: "uncovered"
+    priority: 9
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["data-2"]
+    subtopics:
+      - id: "finance-1.1"
+        name: "Market Data Sources and APIs"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "finance-1.2"
+        name: "OHLCV Data Analysis"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "finance-1.3"
+        name: "Technical Indicators Implementation"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "finance-1.4"
+        name: "Feature Engineering for Financial Data"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+
+  - id: "finance-2"
+    name: "Financial Analysis: Backtesting"
+    status: "uncovered"
+    priority: 10
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["finance-1"]
+    subtopics:
+      - id: "finance-2.1"
+        name: "Backtesting Framework Design"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "finance-2.2"
+        name: "Strategy Implementation"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "finance-2.3"
+        name: "Performance Metrics and Analysis"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "finance-2.4"
+        name: "Optimization and Walk-Forward Testing"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+
+  - id: "finance-3"
+    name: "Financial Analysis: Risk Management"
+    status: "uncovered"
+    priority: 11
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["finance-2"]
+    subtopics:
+      - id: "finance-3.1"
+        name: "Position Sizing Techniques"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "finance-3.2"
+        name: "Stop-Loss and Take-Profit Strategies"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "finance-3.3"
+        name: "Portfolio Optimization"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "finance-3.4"
+        name: "Risk-Adjusted Performance Metrics"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []

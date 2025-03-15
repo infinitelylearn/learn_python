@@ -1,0 +1,69 @@
+# Deep Learning Topics
+topics:
+  - id: "dl-1"
+    name: "Deep Learning: Foundations"
+    status: "uncovered"
+    priority: 14
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["ml-1"]
+    subtopics:
+      - id: "dl-1.1"
+        name: "Neural Network Fundamentals"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "dl-1.2"
+        name: "PyTorch Basics"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "dl-1.3"
+        name: "Training and Optimization Techniques"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "dl-1.4"
+        name: "Advanced Architectures"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+
+  - id: "dl-2"
+    name: "Deep Learning: Time Series Models"
+    status: "uncovered"
+    priority: 15
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["dl-1", "finance-1"]
+    subtopics:
+      - id: "dl-2.1"
+        name: "RNNs and LSTMs"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "dl-2.2"
+        name: "Attention Mechanisms and Transformers"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "dl-2.3"
+        name: "Time Series Forecasting with Deep Learning"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "dl-2.4"
+        name: "Multivariate and Multi-step Forecasting"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []

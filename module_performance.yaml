@@ -1,0 +1,69 @@
+# Performance Optimization Topics
+topics:
+  - id: "perf-1"
+    name: "Performance Optimization: Numba"
+    status: "uncovered"
+    priority: 7
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["data-1"]
+    subtopics:
+      - id: "perf-1.1"
+        name: "JIT Compilation Basics"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "perf-1.2"
+        name: "Numba Decorators and Optimization"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "perf-1.3"
+        name: "Parallelization with Numba"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "perf-1.4"
+        name: "CUDA Programming with Numba"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+
+  - id: "perf-2"
+    name: "Performance Optimization: Multiprocessing"
+    status: "uncovered"
+    priority: 8
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["py-core-2", "py-core-3"]
+    subtopics:
+      - id: "perf-2.1"
+        name: "Concurrent Programming Concepts"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "perf-2.2"
+        name: "Processes vs Threads"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "perf-2.3"
+        name: "Process Pools and Task Distribution"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "perf-2.4"
+        name: "Shared Memory and Communication"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []

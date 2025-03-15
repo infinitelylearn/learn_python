@@ -1,0 +1,69 @@
+# Reinforcement Learning Topics
+topics:
+  - id: "rl-1"
+    name: "Reinforcement Learning: Foundations"
+    status: "uncovered"
+    priority: 16
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["dl-1"]
+    subtopics:
+      - id: "rl-1.1"
+        name: "RL Framework and Components"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "rl-1.2"
+        name: "Value-Based Methods"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "rl-1.3"
+        name: "Policy Gradient Methods"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "rl-1.4"
+        name: "Advanced RL Algorithms"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+
+  - id: "rl-2"
+    name: "Reinforcement Learning: Trading Applications"
+    status: "uncovered"
+    priority: 17
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["rl-1", "finance-2"]
+    subtopics:
+      - id: "rl-2.1"
+        name: "Market Environment Modeling"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "rl-2.2"
+        name: "State and Action Space Design"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "rl-2.3"
+        name: "Reward Function Engineering"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "rl-2.4"
+        name: "Trading Strategy Implementation with RL"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []

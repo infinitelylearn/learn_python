@@ -1,0 +1,69 @@
+# Machine Learning Topics
+topics:
+  - id: "ml-1"
+    name: "Machine Learning: Foundations"
+    status: "uncovered"
+    priority: 12
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["data-1", "data-2"]
+    subtopics:
+      - id: "ml-1.1"
+        name: "Supervised Learning Algorithms"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "ml-1.2"
+        name: "Feature Selection and Engineering"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "ml-1.3"
+        name: "Model Evaluation and Validation"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "ml-1.4"
+        name: "Hyperparameter Tuning"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+
+  - id: "ml-2"
+    name: "Machine Learning: Financial Applications"
+    status: "uncovered"
+    priority: 13
+    mastery: null
+    last_practiced: null
+    attempts: []
+    prerequisites: ["ml-1", "finance-1"]
+    subtopics:
+      - id: "ml-2.1"
+        name: "Price Prediction Models"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "ml-2.2"
+        name: "Classification for Market Regimes"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "ml-2.3"
+        name: "Anomaly Detection in Financial Data"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
+      - id: "ml-2.4"
+        name: "Feature Importance and Model Interpretation"
+        status: "uncovered"
+        mastery: null
+        last_practiced: null
+        attempts: []
