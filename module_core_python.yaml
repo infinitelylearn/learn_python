@@ -17,11 +17,14 @@ topics:
     - '2025-03-16'
   - id: py-core-1.2
     name: Variables, Assignment and References
-    status: in-progress
-    mastery: 3
+    status: covered
+    mastery: 4
     last_practiced: '2025-03-16'
     attempts:
     - '2025-03-16'
+    covered: '[py-core-1.2]'
+    next: '[py-core-1.3]'
+    notes: Good
   - id: py-core-1.3
     name: Conditional Logic and Loops
     status: uncovered
