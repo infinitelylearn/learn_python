@@ -27,10 +27,14 @@ topics:
     notes: Good
   - id: py-core-1.3
     name: Conditional Logic and Loops
-    status: uncovered
-    mastery: null
-    last_practiced: null
-    attempts: []
+    status: covered
+    mastery: 3
+    last_practiced: '2025-03-16'
+    attempts:
+    - '2025-03-16'
+    covered: '[py-core-1.3]'
+    next: '[py-core-1.4]'
+    notes: User
   - id: py-core-1.4
     name: Functions and Scope
     status: uncovered
