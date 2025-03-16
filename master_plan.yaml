@@ -1,36 +1,33 @@
 metadata:
-  last_updated: "2025-03-15"
+  last_updated: '2025-03-15'
   sessions_completed: 0
   active_modules:
-    - "core_python"
-
-# This file references module files that should be loaded
-# as you progress through your learning journey
+  - core_python
 modules:
-  - name: "core_python"
-    file: "module_core_python.yaml"
-    status: "active"
-  - name: "data_handling"
-    file: "module_data_handling.yaml"
-    status: "inactive"
-  - name: "performance"
-    file: "module_performance.yaml"
-    status: "inactive"
-  - name: "finance"
-    file: "module_finance.yaml"
-    status: "inactive"
-  - name: "machine_learning"
-    file: "module_machine_learning.yaml"
-    status: "inactive"
-  - name: "deep_learning"
-    file: "module_deep_learning.yaml"
-    status: "inactive"
-  - name: "reinforcement_learning"
-    file: "module_reinforcement_learning.yaml"
-    status: "inactive"
-  - name: "advanced_topics"
-    file: "module_advanced_topics.yaml"
-    status: "inactive"
-  - name: "production"
-    file: "module_production.yaml"
-    status: "inactive"
+- name: core_python
+  file: module_core_python.yaml
+  status: active
+- name: data_handling
+  file: module_data_handling.yaml
+  status: inactive
+- name: performance
+  file: module_performance.yaml
+  status: inactive
+- name: finance
+  file: module_finance.yaml
+  status: inactive
+- name: machine_learning
+  file: module_machine_learning.yaml
+  status: inactive
+- name: deep_learning
+  file: module_deep_learning.yaml
+  status: inactive
+- name: reinforcement_learning
+  file: module_reinforcement_learning.yaml
+  status: inactive
+- name: advanced_topics
+  file: module_advanced_topics.yaml
+  status: inactive
+- name: production
+  file: module_production.yaml
+  status: inactive
