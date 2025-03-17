@@ -68,6 +68,30 @@ COMMIT Completed basic data types and started variables
 
 The commit message should concisely describe what was accomplished in the session.
 
+## Cross-Topic Mastery Updates
+
+When a session demonstrates evidence of changed mastery in previously covered topics:
+
+1. Include those topics in your UPDATE commands
+2. Adjust mastery scores based on demonstrated ability:
+   ```
+   UPDATE topic=py-core-1.4 status=covered mastery=3 date=2025-03-17 
+   UPDATE topic=py-core-1.2 mastery=4  # Increased from 3 based on demonstrated skills
+   ```
+3. Guidelines for mastery changes:
+   - Increase mastery (e.g., 3→4) when the user demonstrates skills beyond their previous level
+   - Decrease mastery (e.g., 4→3) when the user shows significant gaps in previously "mastered" topics
+   - Include explicit reasoning in SESSION notes: `notes=Improved mastery of variables (py-core-1.2) observed in function parameter handling`
+
+4. Example of multi-topic update:
+   ```
+   python update_learning.py "UPDATE topic=data-2.2 status=covered mastery=3 date=2025-03-15
+   UPDATE topic=py-core-2.3 mastery=4  # Improved comprehension skills observed
+   UPDATE topic=data-1.2 mastery=2  # Struggling with broadcasting concepts
+   SESSION covered=[data-2.2] next=[data-2.3] notes=Strong with time series concepts, needs review of NumPy broadcasting
+   COMMIT Covered Time Series Analysis; adjusted previous topic mastery"
+   ```
+
 ## Examples
 
 ### Basic Topic Update
@@ -101,6 +125,15 @@ python update_learning.py "UPDATE topic=project-1.1 status=covered mastery=3
 UPDATE topic=project-1 status=in-progress 
 SESSION covered=[project-1.1] next=[project-1.2] notes=Good progress on API integration
 COMMIT Completed first project milestone: Data Collection API"
+```
+
+### Review and Cross-Topic Update
+
+```
+python update_learning.py "UPDATE topic=dl-1.1 status=covered mastery=3 
+UPDATE topic=py-core-2.1 mastery=4  # Previously mastery 3, improved during list operations in neural net implementation
+SESSION covered=[dl-1.1] next=[dl-1.2] notes=Neural network basics covered; list manipulation skills showed improvement during implementation
+COMMIT Completed Neural Network Fundamentals and observed improved Python data structure skills"
 ```
 
 ## Command Formatting Guidelines

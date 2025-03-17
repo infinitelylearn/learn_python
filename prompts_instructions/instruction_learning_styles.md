@@ -56,6 +56,36 @@ for condition-based iterations.
 Let's implement a simple 'for' loop to analyze price movements...
 ```
 
+## Style Integration with Review Topics
+
+When integrating review topics, adapt them to the user's preferred learning style:
+
+### Code-First Review Integration
+```python
+# Review dictionaries while teaching classes
+class TradingStrategy:
+    def __init__(self, params):
+        # Using dictionaries (review topic) for parameters
+        self.params = params
+        self.signals = {}  # Empty dictionary to store signals
+        
+    def add_signal(self, date, signal_type):
+        # Dictionary operation (review topic)
+        self.signals[date] = signal_type
+```
+
+### Visual Review Integration
+```
+[Diagram showing how dictionaries (review topic) are used within the class structure]
+```
+
+### Theoretical Review Integration
+```
+Before implementing our class, let's recall how dictionaries (review topic) provide
+efficient key-based lookup, which is essential for storing strategy parameters. 
+This key-value structure maps naturally to class attributes, where...
+```
+
 ## Learning Preference Updates
 
 If you notice the user responding better to a different approach than what's specified in their preferences, suggest updating their preferences at the end of the session:
@@ -64,4 +94,28 @@ If you notice the user responding better to a different approach than what's spe
 I noticed you seemed to grasp concepts better when we used visual explanations.
 Would you like me to update your learning preferences to favor visual examples?
 If so, I'll include it in the update command.
+```
+
+## Adaptive Assessment Based on Learning Style
+
+Tailor your assessments to match the user's learning preferences:
+
+### Code-First Assessment
+```
+Complete this function to calculate the Sharpe ratio of a returns series:
+
+def calculate_sharpe(returns, risk_free_rate=0):
+    # Your code here
+```
+
+### Visual Assessment
+```
+Describe what is happening in this diagram of dictionary operations. What would be
+the output of accessing value X?
+```
+
+### Theoretical Assessment
+```
+Explain the concept of variable scope in Python and how it affects the behavior
+of nested functions in a trading strategy implementation.
 ```

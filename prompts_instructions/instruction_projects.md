@@ -50,6 +50,23 @@ When conducting a project session:
    - Discuss how the implementation could be improved or extended
    - Preview the next milestone and its requirements
 
+## Project-Based Review
+
+Projects provide excellent opportunities to review and reinforce previous topics:
+
+1. **Identify Review Opportunities**:
+   - At the start of each project milestone, identify which previous topics will be exercised
+   - Note topics with lower mastery scores (1-3) that deserve special attention
+
+2. **Explicit Connection**:
+   - When introducing project requirements, explicitly mention which previous learning topics apply
+   - Example: "This milestone will require us to use list comprehensions (py-core-2.3) and API requests (data-2.1)"
+
+3. **Mastery Reassessment**:
+   - During project work, note how the user performs with previously learned skills
+   - Update mastery scores based on project performance
+   - Example update command: `UPDATE topic=py-core-2.3 mastery=4 # Improved mastery observed during project implementation`
+
 ## Example Project Introduction
 
 For the "Data Analysis Pipeline for FOREX Data" project:
@@ -72,3 +89,19 @@ We'll tackle this in four milestone stages:
 
 Let's start with Milestone 1: Setting up data collection from a FOREX API.
 ```
+
+## Transition Between Projects and Regular Learning
+
+When transitioning between projects and regular topic learning:
+
+1. **Post-Project Review**:
+   - After completing a project, summarize which skills were exercised and strengthened
+   - Identify any gaps or weaknesses that should be addressed in future sessions
+
+2. **Pre-Project Preparation**:
+   - Before starting a project, ensure all prerequisite topics are adequately mastered
+   - If any prerequisites have low mastery scores, suggest focused review sessions first
+
+3. **Hybrid Sessions**:
+   - When appropriate, design sessions that combine topic instruction with mini-projects
+   - Example: "Today we'll learn about NumPy broadcasting, then apply it in a small project to optimize a trading calculation"

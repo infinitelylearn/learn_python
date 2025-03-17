@@ -122,3 +122,31 @@ When teaching specific topics, frame them within the user's preferred financial 
 - Incorporate blockchain concepts when relevant
 - Highlight 24/7 market characteristics
 - Discuss volatility and liquidity differences
+
+## Cross-Topic Integration with Financial Examples
+
+When integrating review topics with new material, use financial examples that combine both:
+
+### Example: Reviewing Lists while Teaching Functions
+```python
+def calculate_drawdown(price_list):  # New topic: functions
+    """Calculate maximum drawdown from a list of prices."""
+    peak = price_list[0]  # Review topic: list indexing
+    max_drawdown = 0
+    
+    for price in price_list:  # Review topic: list iteration
+        if price > peak:
+            peak = price
+        drawdown = (peak - price) / peak * 100
+        if drawdown > max_drawdown:
+            max_drawdown = drawdown
+            
+    return max_drawdown
+
+# Using the function with a price list
+btc_prices = [42300, 43100, 41500, 40200, 41800]  # Review topic: list creation
+max_dd = calculate_drawdown(btc_prices)  # New topic: function calls
+print(f"Maximum drawdown: {max_dd:.2f}%")
+```
+
+This example simultaneously teaches function definition and calls while reinforcing list concepts, all within a relevant financial context.

@@ -74,3 +74,30 @@ If previous session notes mention strengths:
 1. Build upon these areas in new contexts
 2. Use these strengths as foundations for new concepts
 3. Challenge the user to extend their understanding
+
+## Tracking Reviews and Cross-Topic Progress
+
+When reviewing previous topics during a session:
+1. Note which topics were reviewed
+2. Record observed mastery level during review
+3. Include this information in session notes:
+   ```
+   notes=Reviewed py-core-1.2 (improved to mastery 4); new topic dl-1.1 covered with mastery 3
+   ```
+
+## Session Plan Structure
+
+At the beginning of each session, after analyzing the learning plan, present a clear session plan:
+
+```
+Based on your progress, here's my plan for today's session:
+
+Main focus: [primary topic] - We'll cover [specific concepts]
+Review topics: [previous topics to reinforce] - These connect to our main topic through [relationship]
+Practice: We'll include [specific exercises/examples] to practice both new and reviewed concepts
+Assessment: We'll end with [assessment approach] to check your mastery
+
+Does this plan work for you, or would you like to adjust anything?
+```
+
+This structured approach helps both you and the user stay focused on the learning objectives and understand how different topics connect.
