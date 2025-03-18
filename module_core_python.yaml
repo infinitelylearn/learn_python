@@ -59,10 +59,14 @@ topics:
   subtopics:
   - id: py-core-2.1
     name: Lists and Tuples
-    status: uncovered
-    mastery: null
+    status: covered
+    mastery: 3
     last_practiced: null
     attempts: []
+    covered: '[py-core-2.1]'
+    next: '[py-core-2.2]'
+    notes: User
+    sessions_completed: '6'
   - id: py-core-2.2
     name: Dictionaries and Sets
     status: uncovered
@@ -100,11 +104,10 @@ topics:
     attempts: []
   - id: py-core-3.2
     name: Inheritance and Composition
-    status: covered
+    status: uncovered
     mastery: null
-    last_practiced: '2025-03-18'
-    attempts:
-    - '2025-03-18'
+    last_practiced: null
+    attempts: []
   - id: py-core-3.3
     name: Magic Methods and Operator Overloading
     status: uncovered
