@@ -18,7 +18,7 @@ topics:
   - id: py-core-1.2
     name: Variables, Assignment and References
     status: covered
-    mastery: 3
+    mastery: 4
     last_practiced: '2025-03-18'
     attempts:
     - '2025-03-16'
@@ -101,7 +101,7 @@ topics:
   - id: py-core-3.2
     name: Inheritance and Composition
     status: covered
-    mastery: 3
+    mastery: null
     last_practiced: '2025-03-18'
     attempts:
     - '2025-03-18'
