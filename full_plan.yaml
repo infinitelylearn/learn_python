@@ -1,0 +1,779 @@
+metadata:
+  last_updated: '2025-03-17'
+  sessions_completed: 5
+  active_modules:
+    - core_python
+modules:
+  - name: core_python
+    file: module_core_python.yaml
+    status: active
+    topics:
+      - id: py-core-1
+        name: 'Python Fundamentals: Types and Control Flow'
+        status: covered
+        priority: 1
+        mastery: 3
+        last_practiced: null
+        attempts: []
+        prerequisites: []
+        subtopics:
+          - id: py-core-1.1
+            name: Basic Data Types and Operations
+            status: covered
+            mastery: 4
+            last_practiced: '2025-03-16'
+            attempts:
+              - '2025-03-16'
+          - id: py-core-1.2
+            name: Variables, Assignment and References
+            status: covered
+            mastery: 4
+            last_practiced: '2025-03-16'
+            attempts:
+              - '2025-03-16'
+            covered: '[py-core-1.2]'
+            next: '[py-core-1.3]'
+            notes: Good
+          - id: py-core-1.3
+            name: Conditional Logic and Loops
+            status: covered
+            mastery: 3
+            last_practiced: '2025-03-16'
+            attempts:
+              - '2025-03-16'
+            covered: '[py-core-1.3]'
+            next: '[py-core-1.4]'
+            notes: User
+          - id: py-core-1.4
+            name: Functions and Scope
+            status: covered
+            mastery: 3
+            last_practiced: '2025-03-17'
+            attempts:
+              - '2025-03-17'
+        covered: '[py-core-1.4]'
+        next: '[py-core-2.1]'
+        notes: User
+      - id: py-core-2
+        name: 'Python Fundamentals: Data Structures'
+        status: uncovered
+        priority: 2
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - py-core-1
+        subtopics:
+          - id: py-core-2.1
+            name: Lists and Tuples
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: py-core-2.2
+            name: Dictionaries and Sets
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: py-core-2.3
+            name: Comprehensions and Generators
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: py-core-2.4
+            name: Advanced Iteration Techniques
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: py-core-3
+        name: 'Python Fundamentals: Object-Oriented Programming'
+        status: uncovered
+        priority: 3
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - py-core-1
+          - py-core-2
+        subtopics:
+          - id: py-core-3.1
+            name: Classes and Objects
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: py-core-3.2
+            name: Inheritance and Composition
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: py-core-3.3
+            name: Magic Methods and Operator Overloading
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: py-core-3.4
+            name: Advanced OOP Patterns and Best Practices
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: py-core-4
+        name: 'Python Fundamentals: Functional Programming'
+        status: uncovered
+        priority: 4
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - py-core-1
+          - py-core-2
+        subtopics:
+          - id: py-core-4.1
+            name: Higher-Order Functions
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: py-core-4.2
+            name: Lambdas and Closures
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: py-core-4.3
+            name: Map, Filter, and Reduce
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: py-core-4.4
+            name: Decorators and Function Transformation
+            status: uncovered
+            mastery: null
+            last_practiced: null
+            attempts: []
+  - name: data_handling
+    file: module_data_handling.yaml
+    status: inactive
+    topics:
+      - id: "data-1"
+        name: "Data Handling: NumPy Foundations"
+        status: "uncovered"
+        priority: 5
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "py-core-2"
+        subtopics:
+          - id: "data-1.1"
+            name: "NumPy Arrays and Vectorization"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "data-1.2"
+            name: "Broadcasting and Advanced Indexing"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "data-1.3"
+            name: "Performance Optimization with NumPy"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "data-1.4"
+            name: "Linear Algebra Operations"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: "data-2"
+        name: "Data Handling: Pandas for Financial Data"
+        status: "uncovered"
+        priority: 6
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "data-1"
+        subtopics:
+          - id: "data-2.1"
+            name: "DataFrame Basics and Data Manipulation"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "data-2.2"
+            name: "Time Series Analysis with Pandas"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "data-2.3"
+            name: "Advanced Data Cleaning and Preprocessing"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "data-2.4"
+            name: "Financial Data Analysis Techniques"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+  - name: performance
+    file: module_performance.yaml
+    status: inactive
+    topics:
+      - id: "perf-1"
+        name: "Performance Optimization: Numba"
+        status: "uncovered"
+        priority: 7
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "data-1"
+        subtopics:
+          - id: "perf-1.1"
+            name: "JIT Compilation Basics"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "perf-1.2"
+            name: "Numba Decorators and Optimization"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "perf-1.3"
+            name: "Parallelization with Numba"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "perf-1.4"
+            name: "CUDA Programming with Numba"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: "perf-2"
+        name: "Performance Optimization: Multiprocessing"
+        status: "uncovered"
+        priority: 8
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "py-core-2"
+          - "py-core-3"
+        subtopics:
+          - id: "perf-2.1"
+            name: "Concurrent Programming Concepts"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "perf-2.2"
+            name: "Processes vs Threads"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "perf-2.3"
+            name: "Process Pools and Task Distribution"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "perf-2.4"
+            name: "Shared Memory and Communication"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+  - name: finance
+    file: module_finance.yaml
+    status: inactive
+    topics:
+      - id: "finance-1"
+        name: "Financial Analysis: Market Data Processing"
+        status: "uncovered"
+        priority: 9
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "data-2"
+        subtopics:
+          - id: "finance-1.1"
+            name: "Market Data Sources and APIs"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "finance-1.2"
+            name: "OHLCV Data Analysis"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "finance-1.3"
+            name: "Technical Indicators Implementation"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "finance-1.4"
+            name: "Feature Engineering for Financial Data"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: "finance-2"
+        name: "Financial Analysis: Backtesting"
+        status: "uncovered"
+        priority: 10
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "finance-1"
+        subtopics:
+          - id: "finance-2.1"
+            name: "Backtesting Framework Design"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "finance-2.2"
+            name: "Strategy Implementation"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "finance-2.3"
+            name: "Performance Metrics and Analysis"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "finance-2.4"
+            name: "Optimization and Walk-Forward Testing"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: "finance-3"
+        name: "Financial Analysis: Risk Management"
+        status: "uncovered"
+        priority: 11
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "finance-2"
+        subtopics:
+          - id: "finance-3.1"
+            name: "Position Sizing Techniques"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "finance-3.2"
+            name: "Stop-Loss and Take-Profit Strategies"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "finance-3.3"
+            name: "Portfolio Optimization"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "finance-3.4"
+            name: "Risk-Adjusted Performance Metrics"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+  - name: machine_learning
+    file: module_machine_learning.yaml
+    status: inactive
+    topics:
+      - id: "ml-1"
+        name: "Machine Learning: Foundations"
+        status: "uncovered"
+        priority: 12
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "data-1"
+          - "data-2"
+        subtopics:
+          - id: "ml-1.1"
+            name: "Supervised Learning Algorithms"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "ml-1.2"
+            name: "Feature Selection and Engineering"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "ml-1.3"
+            name: "Model Evaluation and Validation"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "ml-1.4"
+            name: "Hyperparameter Tuning"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: "ml-2"
+        name: "Machine Learning: Financial Applications"
+        status: "uncovered"
+        priority: 13
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "ml-1"
+          - "finance-1"
+        subtopics:
+          - id: "ml-2.1"
+            name: "Price Prediction Models"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "ml-2.2"
+            name: "Classification for Market Regimes"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "ml-2.3"
+            name: "Anomaly Detection in Financial Data"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "ml-2.4"
+            name: "Feature Importance and Model Interpretation"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+  - name: deep_learning
+    file: module_deep_learning.yaml
+    status: inactive
+    topics:
+      - id: "dl-1"
+        name: "Deep Learning: Foundations"
+        status: "uncovered"
+        priority: 14
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "ml-1"
+        subtopics:
+          - id: "dl-1.1"
+            name: "Neural Network Fundamentals"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "dl-1.2"
+            name: "PyTorch Basics"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "dl-1.3"
+            name: "Training and Optimization Techniques"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "dl-1.4"
+            name: "Advanced Architectures"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: "dl-2"
+        name: "Deep Learning: Time Series Models"
+        status: "uncovered"
+        priority: 15
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "dl-1"
+          - "finance-1"
+        subtopics:
+          - id: "dl-2.1"
+            name: "RNNs and LSTMs"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "dl-2.2"
+            name: "Attention Mechanisms and Transformers"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "dl-2.3"
+            name: "Time Series Forecasting with Deep Learning"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "dl-2.4"
+            name: "Multivariate and Multi-step Forecasting"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+  - name: reinforcement_learning
+    file: module_reinforcement_learning.yaml
+    status: inactive
+    topics:
+      - id: "rl-1"
+        name: "Reinforcement Learning: Foundations"
+        status: "uncovered"
+        priority: 16
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "dl-1"
+        subtopics:
+          - id: "rl-1.1"
+            name: "RL Framework and Components"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "rl-1.2"
+            name: "Value-Based Methods"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "rl-1.3"
+            name: "Policy Gradient Methods"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "rl-1.4"
+            name: "Advanced RL Algorithms"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: "rl-2"
+        name: "Reinforcement Learning: Trading Applications"
+        status: "uncovered"
+        priority: 17
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "rl-1"
+          - "finance-2"
+        subtopics:
+          - id: "rl-2.1"
+            name: "Market Environment Modeling"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "rl-2.2"
+            name: "State and Action Space Design"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "rl-2.3"
+            name: "Reward Function Engineering"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "rl-2.4"
+            name: "Trading Strategy Implementation with RL"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+  - name: advanced_topics
+    file: module_advanced_topics.yaml
+    status: inactive
+    topics:
+      - id: "adv-1"
+        name: "Advanced Topics: Multi-Agent Systems"
+        status: "uncovered"
+        priority: 18
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "rl-1"
+          - "py-core-3"
+        subtopics:
+          - id: "adv-1.1"
+            name: "Multi-Agent Architecture Design"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "adv-1.2"
+            name: "Agent Communication Protocols"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "adv-1.3"
+            name: "Cooperative and Competitive Agents"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "adv-1.4"
+            name: "Multi-Agent Trading Systems"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: "adv-2"
+        name: "Advanced Topics: Meta-Learning"
+        status: "uncovered"
+        priority: 19
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "dl-1"
+          - "rl-1"
+        subtopics:
+          - id: "adv-2.1"
+            name: "Meta-Learning Concepts"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "adv-2.2"
+            name: "Model-Agnostic Meta-Learning"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "adv-2.3"
+            name: "Meta-Learning for Time Series"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "adv-2.4"
+            name: "Adaptive Trading Strategies"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+  - name: production
+    file: module_production.yaml
+    status: inactive
+    topics:
+      - id: "prod-1"
+        name: "Production: System Architecture"
+        status: "uncovered"
+        priority: 20
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "py-core-3"
+          - "perf-2"
+        subtopics:
+          - id: "prod-1.1"
+            name: "Modular System Design"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "prod-1.2"
+            name: "Event-Driven Architecture"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "prod-1.3"
+            name: "Data Pipeline Design"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "prod-1.4"
+            name: "Fault Tolerance and Error Handling"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+      - id: "prod-2"
+        name: "Production: Trading System Implementation"
+        status: "uncovered"
+        priority: 21
+        mastery: null
+        last_practiced: null
+        attempts: []
+        prerequisites:
+          - "prod-1"
+          - "finance-3"
+        subtopics:
+          - id: "prod-2.1"
+            name: "Order Management System"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "prod-2.2"
+            name: "Risk Management Integration"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "prod-2.3"
+            name: "Performance Monitoring"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []
+          - id: "prod-2.4"
+            name: "System Integration and Deployment"
+            status: "uncovered"
+            mastery: null
+            last_practiced: null
+            attempts: []

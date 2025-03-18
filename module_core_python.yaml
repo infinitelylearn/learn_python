@@ -18,13 +18,15 @@ topics:
   - id: py-core-1.2
     name: Variables, Assignment and References
     status: covered
-    mastery: 4
-    last_practiced: '2025-03-16'
+    mastery: 3
+    last_practiced: '2025-03-18'
     attempts:
     - '2025-03-16'
-    covered: '[py-core-1.2]'
-    next: '[py-core-1.3]'
-    notes: Good
+    - '2025-03-18'
+    covered: '[py-core-3.2,py-core-1.2]'
+    next: '[trading-strategies]'
+    notes: User
+    sessions_completed: '5'
   - id: py-core-1.3
     name: Conditional Logic and Loops
     status: covered
@@ -98,10 +100,11 @@ topics:
     attempts: []
   - id: py-core-3.2
     name: Inheritance and Composition
-    status: uncovered
-    mastery: null
-    last_practiced: null
-    attempts: []
+    status: covered
+    mastery: 3
+    last_practiced: '2025-03-18'
+    attempts:
+    - '2025-03-18'
   - id: py-core-3.3
     name: Magic Methods and Operator Overloading
     status: uncovered
