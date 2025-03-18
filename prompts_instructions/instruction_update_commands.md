@@ -10,6 +10,7 @@ The complete command follows this format:
 python update_learning.py "UPDATE topic=ID1 param=value param=value 
 UPDATE topic=ID2 param=value 
 SESSION covered=[topic1,topic2] next=[topic3] notes=Brief observation 
+METADATA sessions_completed=X
 PREF style=value domain=value 
 COMMIT Descriptive message about the session"
 ```
@@ -43,6 +44,18 @@ Parameters:
 - `next`: List of topic IDs suggested for next session
 - `notes`: Brief observation about learning progress
 
+### METADATA Command
+
+Use `METADATA` to update session count and other metadata:
+
+```
+METADATA sessions_completed=4
+```
+
+Parameters:
+- `sessions_completed`: The total number of completed sessions (increment by 1 each session)
+- `last_updated`: The date of the current session (added automatically if not specified)
+
 ### PREF Command
 
 Use `PREF` to update learning preferences:
@@ -68,6 +81,16 @@ COMMIT Completed basic data types and started variables
 
 The commit message should concisely describe what was accomplished in the session.
 
+## Important: Updating Session Count
+
+**CRITICAL**: Always include the METADATA command to increment the sessions_completed count by 1 for each session. Check the current count in master_plan.yaml and increment it:
+
+```
+METADATA sessions_completed=X  # where X is previous count + 1
+```
+
+Failing to increment this count will cause the framework to lose track of session continuity.
+
 ## Cross-Topic Mastery Updates
 
 When a session demonstrates evidence of changed mastery in previously covered topics:
@@ -89,6 +112,7 @@ When a session demonstrates evidence of changed mastery in previously covered to
    UPDATE topic=py-core-2.3 mastery=4  # Improved comprehension skills observed
    UPDATE topic=data-1.2 mastery=2  # Struggling with broadcasting concepts
    SESSION covered=[data-2.2] next=[data-2.3] notes=Strong with time series concepts, needs review of NumPy broadcasting
+   METADATA sessions_completed=5
    COMMIT Covered Time Series Analysis; adjusted previous topic mastery"
    ```
 
@@ -97,7 +121,9 @@ When a session demonstrates evidence of changed mastery in previously covered to
 ### Basic Topic Update
 
 ```
-python update_learning.py "UPDATE topic=py-core-1.1 status=covered mastery=3 COMMIT Completed basic data types"
+python update_learning.py "UPDATE topic=py-core-1.1 status=covered mastery=3 
+METADATA sessions_completed=2
+COMMIT Completed basic data types"
 ```
 
 ### Multiple Updates with Session Tracking
@@ -107,6 +133,7 @@ python update_learning.py "UPDATE topic=py-core-1.1 status=covered mastery=3
 UPDATE topic=py-core-1 mastery=2 
 UPDATE topic=py-core-1.2 status=in-progress 
 SESSION covered=[py-core-1.1] next=[py-core-1.2] notes=User grasps concepts quickly but needs more practice with list syntax 
+METADATA sessions_completed=3
 COMMIT Completed basic data types and started variables"
 ```
 
@@ -114,6 +141,7 @@ COMMIT Completed basic data types and started variables"
 
 ```
 python update_learning.py "UPDATE topic=data-1.1 status=covered mastery=4 
+METADATA sessions_completed=6
 PREF style=visual domain=forex 
 COMMIT Completed NumPy arrays; updated learning preferences to visual style"
 ```
@@ -124,6 +152,7 @@ COMMIT Completed NumPy arrays; updated learning preferences to visual style"
 python update_learning.py "UPDATE topic=project-1.1 status=covered mastery=3 
 UPDATE topic=project-1 status=in-progress 
 SESSION covered=[project-1.1] next=[project-1.2] notes=Good progress on API integration
+METADATA sessions_completed=8
 COMMIT Completed first project milestone: Data Collection API"
 ```
 
@@ -133,6 +162,7 @@ COMMIT Completed first project milestone: Data Collection API"
 python update_learning.py "UPDATE topic=dl-1.1 status=covered mastery=3 
 UPDATE topic=py-core-2.1 mastery=4  # Previously mastery 3, improved during list operations in neural net implementation
 SESSION covered=[dl-1.1] next=[dl-1.2] notes=Neural network basics covered; list manipulation skills showed improvement during implementation
+METADATA sessions_completed=12
 COMMIT Completed Neural Network Fundamentals and observed improved Python data structure skills"
 ```
 
@@ -142,7 +172,8 @@ COMMIT Completed Neural Network Fundamentals and observed improved Python data s
 2. Chain multiple updates together for all affected topics and subtopics
 3. Include topic mastery and status changes
 4. Add SESSION tracking for continuity
-5. Update PREF when learning preferences change
-6. End with a COMMIT message describing the session
+5. **Always include METADATA to update session count**
+6. Update PREF when learning preferences change
+7. End with a COMMIT message describing the session
 
 Present this command clearly at the end of each session, formatted in a code block for easy copying.
