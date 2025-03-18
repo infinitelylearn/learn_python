@@ -69,10 +69,15 @@ topics:
     sessions_completed: '6'
   - id: py-core-2.2
     name: Dictionaries and Sets
-    status: uncovered
-    mastery: null
-    last_practiced: null
-    attempts: []
+    status: covered
+    mastery: 3
+    last_practiced: '2025-03-18'
+    attempts:
+    - '2025-03-18'
+    covered: '[py-core-2.2]'
+    next: '[py-core-2.3]'
+    notes: Successfully
+    sessions_completed: '7'
   - id: py-core-2.3
     name: Comprehensions and Generators
     status: uncovered
