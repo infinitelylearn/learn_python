@@ -80,10 +80,15 @@ topics:
     sessions_completed: '7'
   - id: py-core-2.3
     name: Comprehensions and Generators
-    status: uncovered
-    mastery: null
-    last_practiced: null
-    attempts: []
+    status: covered
+    mastery: 3
+    last_practiced: '2025-03-19'
+    attempts:
+    - '2025-03-19'
+    covered: '[py-core-2.3]'
+    next: '[py-core-2.4]'
+    notes: User
+    sessions_completed: '8'
   - id: py-core-2.4
     name: Advanced Iteration Techniques
     status: uncovered
