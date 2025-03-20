@@ -91,10 +91,15 @@ topics:
     sessions_completed: '8'
   - id: py-core-2.4
     name: Advanced Iteration Techniques
-    status: uncovered
-    mastery: null
-    last_practiced: null
-    attempts: []
+    status: covered
+    mastery: 3
+    last_practiced: '2025-03-20'
+    attempts:
+    - '2025-03-20'
+    sessions_completed: '9'
+    covered: '[py-core-2.4]'
+    next: '[py-core-3.1]'
+    notes: User
 - id: py-core-3
   name: 'Python Fundamentals: Object-Oriented Programming'
   status: uncovered
