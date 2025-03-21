@@ -113,10 +113,15 @@ topics:
   subtopics:
   - id: py-core-3.1
     name: Classes and Objects
-    status: uncovered
-    mastery: null
-    last_practiced: null
-    attempts: []
+    status: covered
+    mastery: 3
+    last_practiced: '2025-03-21'
+    attempts:
+    - '2025-03-21'
+    covered: '[py-core-3.1]'
+    next: '[py-core-3.2]'
+    notes: User
+    sessions_completed: '10'
   - id: py-core-3.2
     name: Inheritance and Composition
     status: uncovered
