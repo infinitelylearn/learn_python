@@ -124,10 +124,14 @@ topics:
     sessions_completed: '10'
   - id: py-core-3.2
     name: Inheritance and Composition
-    status: uncovered
-    mastery: null
+    status: covered
+    mastery: 3
     last_practiced: null
     attempts: []
+    covered: '[py-core-3.2]'
+    next: '[py-core-3.3]'
+    notes: User
+    sessions_completed: '6'
   - id: py-core-3.3
     name: Magic Methods and Operator Overloading
     status: uncovered
