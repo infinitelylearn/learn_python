@@ -1,6 +1,13 @@
 # Planning Phase Instructions
 **ACCESS IN: Planning Phase**
 
+## MASTERY PROGRESSION CHECKPOINT - COMPLETE FIRST
+1. List ALL topics with mastery < 4 from module files
+2. If ANY exist, this session MUST focus on strengthening these topics
+3. Prepare specific exercises to demonstrate level 4-5 mastery
+4. Only proceed to new topics if ALL prerequisites have mastery >= 4
+5. Document your completion of this checkpoint explicitly
+
 ## Initial Analysis
 
 ### Learning Progress Analysis

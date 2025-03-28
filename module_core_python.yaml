@@ -134,10 +134,15 @@ topics:
     sessions_completed: '6'
   - id: py-core-3.3
     name: Magic Methods and Operator Overloading
-    status: uncovered
-    mastery: null
-    last_practiced: null
-    attempts: []
+    status: covered
+    mastery: 3
+    last_practiced: '2025-03-28'
+    attempts:
+    - '2025-03-28'
+    covered: '[py-core-3.3]'
+    next: '[py-core-3.4]'
+    notes: User
+    sessions_completed: '12'
   - id: py-core-3.4
     name: Advanced OOP Patterns and Best Practices
     status: uncovered

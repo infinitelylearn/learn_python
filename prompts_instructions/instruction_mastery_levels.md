@@ -3,6 +3,10 @@
 
 ## Mastery Level Definitions
 
+### CRITICAL PROGRESSION RULE
+Before planning any new topic, verify that ALL prerequisite topics have reached mastery level 4+.
+A topic with mastery < 4 indicates incomplete learning and MUST be strengthened before proceeding.
+
 ### Level 1: Recognition
 - Topic has been covered or introduced
 - Can identify concepts when prompted

@@ -1,6 +1,13 @@
 # Assessment Phase Evidence Collection
 **ACCESS IN: Assessment Phase**
 
+## MASTERY LEVEL VERIFICATION
+- Mastery level 3 is NOT sufficient for topic completion
+- Mastery levels 4-5 require SPECIFIC evidence of advanced abilities
+- For mastery 4: Must show analysis/synthesis (not just application)
+- For mastery 5: Must show evaluation/creation of novel solutions
+- If evidence doesn't clearly demonstrate level 4+, mark topic for continued strengthening
+
 ## Evidence Collection Process
 
 ### CRITICAL: Wait for User Response

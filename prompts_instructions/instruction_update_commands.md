@@ -1,6 +1,11 @@
 # Update Command Formatting
 
-After completing a session, provide a single command that updates all necessary files. This command uses the `update_learning.py` script to update YAML files, track session information, and commit changes to GitHub.
+## PROGRESSION VALIDATION CHECKPOINT
+Before creating update commands:
+1. Review the evidence collected during assessment
+2. If topic mastery < 4, add this comment to your update command:
+   "# WARNING: Topic requires further strengthening to achieve mastery 4+"
+3. Ensure your SESSION command recommends continuing with this topic in the next session
 
 ## Command Structure
 
